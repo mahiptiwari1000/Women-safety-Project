@@ -1,0 +1,83 @@
+body {
+    font-family: Lato,Arial,sans-serif;
+}
+html{
+    background-color:#fff;
+    color:#555;
+    font-family:'Lato','Arial',sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+h1{
+    margin:0;
+    color:#000;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-align: center;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+}
+p {
+    line-height: 150%;
+    font: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.blogpost {
+    width:70%;
+    float:left;
+}
+
+.otherposts {
+    width:25%;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+.problemstext {
+    font-size:17px;
+}
+
+
+.myths {
+    background-color: #f2eaea;
+}
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+    
+}
+li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.eveteasinghandling {
+    margin-top: 20px;
+}
+
+a:link,
+a:visited{
+    color:#e67e22;
+    text-decoration: none;
+    border-bottom:1px solid #e67e22;
+    padding-bottom:2px;
+    transition: border-bottom 0.5s, color 0.5s;
+}
+
+a:hover,
+a:active{
+    color:#555;
+    border-bottom:1px solid transparent;
+
+

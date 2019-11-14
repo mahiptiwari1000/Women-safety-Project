@@ -1,0 +1,23 @@
+if(empty($_POST['firstname']))
+        {
+            $errors['firstname1'] = " Required";
+        }
+
+    if(empty($_POST['zip']))
+        {
+            $errors['zip1'] = " Required";
+        }
+
+    <!-- Letters only for firstname -->
+
+    <p>
+                <label for="firstname" class="label"><font color="#040404">*First Name:</font></label>
+                <input class="textinput" id="firstname" type="text" name="firstname" value="<?php if(isset($_POST['firstname'])) echo $_POST['firstname']; ?>" /><?php if(isset($errors['firstname1'])) echo $errors['firstname1']; ?>
+            </p>
+    <!-- Letters only for zip -->
+
+    <p>
+
+                    <label for="zip" class="label"><font color="#040404">*Zip Code:</font></label>
+                    <input id="zip" type="text" name="zip" value="<?php if(isset($_POST['zip'])) echo $_POST['zip']; ?>" /><?php if(isset($errors['zip1'])) echo $errors['zip1']; ?> <?php if(isset($errors['zip2'])) echo $errors['zip2']; ?>
+                </p>

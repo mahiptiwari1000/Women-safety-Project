@@ -1,0 +1,65 @@
+
+.formsofviolence {
+    width:100%;
+    background-color:#f0ebeb;
+}
+
+.otherpostsdv {
+    float:left;
+}
+
+.dvhandling {
+    margin-top: 20px;
+}
+
+.dealdv {
+    margin-left: 30px;
+}
+
+blockquote {
+    padding:2%;
+    font-style:italic;
+    line-height: 145%;
+    position:relative;
+    margin-top:10px;
+}
+cite{
+    font-size:150%;
+    margin-left:20px;
+    display:block;
+    word-spacing:3px;
+    letter-spacing: 2px;
+}
+blockquote:before{
+    content:"\201C";
+    font-size:300%;
+    display:block;
+    position:absolute;
+    top:auto;
+    bottom:auto;
+}
+blockquote:after{
+    content:"\201D";
+    font-size:300%;
+    display:block;
+    position:absolute;
+    top:38%;
+    left:76%;
+}
+
+
+
+
+.myicons {
+     font-size:30px;
+    margin-right: 20px;
+    margin-left:15px;
+}
+
+.reportdv {
+    margin-top: 20px;
+}
+
+.links {
+    color:#e67e22;
+}
