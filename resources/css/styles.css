@@ -1,0 +1,259 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color:#fff;
+    color:#555;
+    font-family:'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+.clearfix{zoom:1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility: hidden; 
+}
+
+/* ---------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------- */
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------- */
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(img/womanalone1.jpeg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.image-text-box{
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+h1,h2{
+    margin:0;
+    color:#fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+h1{
+    font-size:300%;
+    text-transform: uppercase;   
+}
+h2{
+  margin-top:0;
+  margin-bottom: 20px;
+  font-size:240%;
+
+}
+.h2text{
+    color: #000;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.h2text:after{
+   display: block;
+    height: 2px;
+    background-color:#e67e22;
+    content:" ";
+    width: 100px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+h3{
+    text-align: center;
+}
+.About-Us h3{
+    font-size:22px;
+    font-weight:400;
+}
+
+.logo{
+    height: 150px;
+    width:auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav {
+    float:right;
+    list-style: none;
+    margin-top: 40px;
+}
+.main-nav li{
+    display:inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom:2px solid transparent;
+    transition: border-bottom 1s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+/* ---------------------------------------------- */
+/* BUTTONS */
+/* ---------------------------------------------- */
+.btn:link,
+.btn:visited{
+    display:inline-block;
+    padding:10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius:200px;
+    color:#fff;
+    transition: background-color 0.2s,color 0.2s, border 0.2s;
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color: #b71c1c;
+    border: 1px solid #b71c1c;
+    margin-right: 15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    color:#e67e22;
+}
+.btn:hover,
+.btn:active{
+    
+}
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #d50000;
+    background-color: #d50000;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color:#fff;
+}
+
+/* ---------------------------------------------- */
+/* ABOUT US SECTION */
+/* ---------------------------------------------- */
+.ourmotivation{
+    margin-top: 30px;
+    font-size:22px;
+    word-spacing: 2px;
+}
+/* ---------------------------------------------- */
+/* SAFETY TIPS SECTION */
+/* ---------------------------------------------- */
+
+.safetytips{
+    list-style: none;
+    width:100%;
+}
+.safetytips li{
+    display:block;
+    float:left;
+    width:25%;
+}
+.violence-photos{
+    width:100%;
+    margin: 0;
+    overflow:hidden;
+    background:#000;
+}
+.violence-photos img{
+    opacity: 0.70;
+    width:100%;
+    height:auto;
+    transform:scale(1.15);
+    transition:transform(0.75),opacity:0.5s;
+}
+.violence-photos img:hover{
+    opacity: 1;
+    transform:scale(1.05);
+}
+
+/* ---------------------------------------------- */
+/* HOW IT WORKS */
+/* ---------------------------------------------- */
+.section-how-it-works p{
+    font-size: 20px;
+}
+.section-how-it-works{
+    background-color: #f4f4f4;
+}
+.section-how-it-works h2{
+    color:#000;
+    padding-top: 50px;
+    text-align: center;
+}
+.app-screen{
+    width: 50%;
+    height:auto;
+}
+.steps-box:first-child{
+    text-align:right;
+    padding-left:3%;
+    margin-top:40px;
+}
+.steps-box:last-child{
+    padding-left:3%;
+    margin-top:70px;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step:last-of-type{
+    margin-bottom:80px;
+}
+.works-step div{
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    text-align:center;
+    padding:5px;
+    float:left;
+    font-size:150%;
+    margin-right:25px;
+}
+.btn-app img{
+    height: 50px;
+    margin-right:10px;
+}
+
+
+.abouttext {
+    
+}
+
+.aboutbFearless {
+    font-size:25px;
+}
